@@ -1,0 +1,61 @@
+<svg width="1536" height="960" viewBox="0 0 1536 960" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="largeShadow" x="-20%" y="-20%" width="140%" height="150%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="38" flood-color="#26231E" flood-opacity="0.16"/>
+      <feDropShadow dx="0" dy="5" stdDeviation="6" flood-color="#26231E" flood-opacity="0.08"/>
+    </filter>
+    <filter id="cardShadow" x="-18%" y="-18%" width="136%" height="144%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#26231E" flood-opacity="0.13"/>
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#26231E" flood-opacity="0.07"/>
+    </filter>
+  </defs>
+
+  <rect width="1536" height="960" rx="44" fill="#F8F3E7"/>
+  <circle cx="1380" cy="150" r="210" fill="#EDEFFF" opacity="0.55"/>
+  <circle cx="220" cy="840" r="260" fill="#FFFFFF" opacity="0.55"/>
+
+  <text x="116" y="132" fill="#211F1C" font-family="Apple SD Gothic Neo, SF Pro Display, Helvetica, Arial, sans-serif" font-size="54" font-weight="850">답변창이 대화의 중심이 됩니다</text>
+  <text x="116" y="184" fill="#736B5D" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="24" font-weight="600">첫 질문은 조용히 처리하고, 이어묻기는 답변창 안에서 토큰 단위로 흐릅니다.</text>
+
+  <g filter="url(#largeShadow)">
+    <rect x="274" y="224" width="988" height="622" rx="32" fill="#FFFEF8"/>
+
+    <rect x="298" y="248" width="940" height="104" rx="24" fill="#FFFDF5" filter="url(#cardShadow)"/>
+    <rect x="326" y="279" width="42" height="42" rx="12" fill="#3356D3"/>
+    <text x="340" y="307" fill="#FFFFFF" font-family="SF Pro Text, Helvetica, Arial, sans-serif" font-size="20" font-weight="850">*</text>
+    <text x="392" y="292" fill="#736B5D" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="15" font-weight="800">Bulby Insight</text>
+    <text x="392" y="323" fill="#211F1C" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="22" font-weight="850">그럼 다음 액션만 세 줄로 줄여줘</text>
+    <rect x="816" y="284" width="78" height="28" rx="14" fill="#E9EDFF"/>
+    <circle cx="836" cy="298" r="5" fill="#3356D3"/>
+    <text x="852" y="303" fill="#3356D3" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="12" font-weight="850">생성 중</text>
+    <rect x="1152" y="284" width="38" height="38" rx="11" fill="#FFFFFB" filter="url(#cardShadow)"/>
+    <text x="1163" y="309" fill="#736B5D" font-family="SF Pro Text, Helvetica, Arial, sans-serif" font-size="21" font-weight="800">×</text>
+
+    <g transform="translate(326 394)">
+      <rect x="350" y="0" width="560" height="86" rx="18" fill="#EEF1FF" filter="url(#cardShadow)"/>
+      <text x="378" y="34" fill="#3356D3" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="14" font-weight="850">질문</text>
+      <text x="378" y="62" fill="#211F1C" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="750">현재 화면에서 사용자가 바로 봐야 할 건?</text>
+
+      <rect x="0" y="118" width="910" height="150" rx="20" fill="#FFFFFB" filter="url(#cardShadow)"/>
+      <text x="28" y="154" fill="#3356D3" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="14" font-weight="850">답변</text>
+      <text x="28" y="192" fill="#393630" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">화면의 핵심은 권한 상태, 로컬 모델 연결, 선택된 창입니다.</text>
+      <text x="28" y="224" fill="#393630" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">Bulby는 활성 창을 우선 캡처하고, 선택 창이 있으면 그 목록만 분석합니다.</text>
+
+      <rect x="414" y="302" width="496" height="86" rx="18" fill="#EEF1FF" filter="url(#cardShadow)"/>
+      <text x="442" y="336" fill="#3356D3" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="14" font-weight="850">질문</text>
+      <text x="442" y="364" fill="#211F1C" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="750">그럼 다음 액션만 세 줄로 줄여줘</text>
+
+      <rect x="0" y="420" width="910" height="120" rx="20" fill="#FFFFFB" filter="url(#cardShadow)"/>
+      <circle cx="32" cy="456" r="10" fill="#DDE4FF"/>
+      <circle cx="32" cy="456" r="5" fill="#3356D3"/>
+      <text x="58" y="451" fill="#3356D3" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="14" font-weight="850">답변 생성 중</text>
+      <text x="58" y="488" fill="#393630" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">1. Ollama 실행 상태 확인</text>
+      <text x="58" y="518" fill="#393630" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="18" font-weight="600">2. 화면 캡처 권한 확인</text>
+    </g>
+
+    <rect x="326" y="782" width="812" height="50" rx="16" fill="#FFFFFB" filter="url(#cardShadow)"/>
+    <text x="354" y="814" fill="#8B8274" font-family="Apple SD Gothic Neo, SF Pro Text, Helvetica, Arial, sans-serif" font-size="16" font-weight="650">이 대화에서 이어 묻기...</text>
+    <circle cx="1106" cy="807" r="18" fill="#3356D3"/>
+    <path d="M1099 809L1106 814L1114 800" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>
